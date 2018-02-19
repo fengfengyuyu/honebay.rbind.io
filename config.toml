@@ -1,4 +1,4 @@
-baseurl = "honebay.rbind.io"
+baseurl = "honebay.rbind.io/public"
 languageCode = "en-us"
 title = "honebay.rbind.io"
 theme = "hugo-xmin"
