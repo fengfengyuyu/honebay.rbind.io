@@ -1,16 +1,16 @@
 ---
-title: Rstudio 为何如此重要？
-author: 冯羽
-date: '2018-02-25'
+title: Jeff Leek counted to infinity. Twice.
+author: Brian Caffo
+date: '2015-07-26'
 categories:
-  - Statistics
+  - Leekaso
 tags:
   - Markdown
-  - R
-thumbnail: http://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png
+  - Lorem Ipsum
+thumbnail: https://db.yihui.name/imgur/2R9iyPv.jpg
 ---
 
-**Rstudio** 是一家软件公司，按照维基百科的说法，这家公司提供 R语言
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore _magna aliqua_. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed ante libero. Sed hendrerit arcu lacus.
 

@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "TIMES GUANGZHOU"
+title = "Hugo XMag"
 theme = "hugo-xmag"
 googleAnalytics = ""
 disqusShortname = ""
@@ -35,13 +35,12 @@ paginate = 6
     url = "/index.xml"
 
 [params]
-    description = "冯羽的个人网站"
+    description = "A website built through Hugo and blogdown."
     summary_length = 300
-    github_edit = "https://github.com/fengfengyuyu/blog.hugo.ivy/edit/master/exampleSite/content/"
-    footer = "&copy;[冯羽](https://wenduodian.netlify.com) 2018 | [Hugo](https://themes.gohugo.io/hugo-xmag) | [Blogdown](https://honebay.rbind.io)"
+    github_edit = "https://github.com/yihui/hugo-xmag/edit/master/exampleSite/content/"
+    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
 
 [params.text]
-    back = "&larr; 回到主页"
-    edit = "编辑本页 &rarr;"
+    back = "&larr; Back to Home"
+    edit = "Edit this page &rarr;"
     truncated = "&hellip;"
-    about_author = "关于作者"

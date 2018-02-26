@@ -1,2 +1,2 @@
-# honebay.rbind.io
-test for blogdown
+# blog.hugo.ivy
+use hugo-xmag
