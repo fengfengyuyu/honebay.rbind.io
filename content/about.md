@@ -1,101 +1,25 @@
 ---
-title: About Hugo XMin
-author: Yihui Xie
+title: 关于“揾多啲”
+author: 
+ - 冯羽
+ - 钟小小
 ---
 
-**XMin** is the first Hugo theme I have designed. The original reason that I wrote it was I needed a minimal example of Hugo themes when I was writing the  [**blogdown**](https://github.com/rstudio/blogdown) book. Basically I wanted a simple theme that supports a navigation menu, a home page, other single pages, lists of pages, blog posts, categories, tags, and RSS. That is all. Nothing fancy. In terms of CSS and JavaScript, I really want to keep them minimal. In fact, this theme does not contain any JavaScript code at all, although on this example website I did introduce some JavaScript code (still relatively simple anyway). The theme does not contain any images, either, and is pretty much a plain-text theme.
+**揾多啲**(wenduodi)是一句粤语，常见于过年期间长辈对晚辈的寄语。“揾多啲”下一句就是:“你揾多啲钱，我才有的食”，这是粤语中鼓励他人一种幽默的说法。作为外省人，我很是受用，因为我从来没有揾多啲。我也常常思考，为什么就“揾不到钱”呢？都说外省人吃苦耐劳，我也不差，何以“揾不到钱”呢？
 
-The theme name "XMin" can be interpreted as "**X**ie's **Min**imal theme" (Xie is my last name) or "e**X**tremely **Min**imal theme".
+**揾多啲**的网站风格来自[**谢益辉**](https://github.com/yihui/hugo-xmag)，大概用过R语言的人都认识谢益辉，我很喜欢他的极简哲学。建站工具是blogdown，同样是谢益辉及其同仁开发的，绑定了 git和hugo。只要一次部署完毕，剩下的就是码字了。
 
-# config.toml
+我原本想用[**hugo-ivy**](https://github.com/yihui/hugo-ivy)，也是谢益辉开发的，极简又不失国际范儿。但我想我的中文读者估计没几个，国际友人就更没几个了，而且我又没那么多内容来支撑这种极简框架，所以最终还是选用了谢益辉这个“泰晤士时报”的网站风格。**&Tfr;&Ifr;&Mfr;&Efr;&Sfr; &Gfr;&Ufr;&Afr;&Nfr;&Gfr;&Zfr;&Hfr;&Ofr;&Ufr;**实际上是无厘头的没什么意义的说法，这字体不常见，只是增加点好玩的元素罢。
 
-For this example site, I defined permalinks for two sections, `post` and `note`, so that the links to pages under these directories will contain the date info, e.g., `https://xmin.yihui.name/post/2016/02/14/a-plain-markdown-post/`. This is optional, and it is up to your personal taste of URLs.
+钟小小是这个网站的另外一位开发者，也是我的夫人。游转于油米柴盐和带娃之中，深知生活不易，是除长辈之外鼓励我**揾多啲**的同辈中人。我因缺乏人情世故天赋，经友好协商，特将首席市场官CMO授予钟小小，本网站的商业化运作就拜托她了。
 
-```
-[permalinks]
-    post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
-```
+# 关于网站内容
 
-You can define the menu through `menu.main`, e.g.,
+近期预告如下：
 
-```
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-[[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 3
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-[[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
-```
+- Rstudio 为何如此重要？
+- 那些我们熟悉的开挂的 R语言开发者
+- R语言的优势和劣势
+- 油米柴盐若干事
+- 读书若干事
 
-Alternatively, you can add `menu: main` to the YAML metadata of any of your pages, so that these pages will appear in the menu.
-
-The page footer can be defined in `.Params.footer`, and the text is treated as Markdown, e.g.,
-
-```
-[params]
-    footer = "&copy; [Yihui Xie](https://yihui.name) 2017"
-```
-
-# Custom layouts
-
-There are two layout files under `layouts/partials/` that you may want to override: `head_custom.html` and `foot_custom.html`. This is how you inject arbitrary HTML code to the head and foot areas. For example, this site has a file `layouts/partials/foot_custom.html` to support LaTeX math via MathJax and center images automatically:
-
-```html
-<script src="//yihui.name/js/math-code.js"></script>
-<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-<script async src="//yihui.name/js/center-img.js"></script>
-```
-
-You can certainly enable highlight.js for syntax highlighting by yourself through `head_custom.html` and `foot_custom.html` if you want.
-
-If you do not like the default fonts (e.g., `Palatino`), you may provide your own `static/css/fonts.css` under the root directory of your website to override the `fonts.css` in the theme.
-
-# Other features
-
-I could have added more features to this theme, but I decided not to, since I have no intention to make this theme feature-rich. However, I will teach you how. I have prepared several examples via pull requests at https://github.com/yihui/hugo-xmin/pulls, so that you can see the implementations of these features when you check out the diffs in the pull requests. For example, you can:
-
-- [Enable Google Analytics](https://github.com/yihui/hugo-xmin/pull/3)
-
-- [Enable Disqus comments](https://github.com/yihui/hugo-xmin/pull/4)
-
-- [Enable highlight.js for syntax highlighting of code blocks](https://github.com/yihui/hugo-xmin/pull/5)
-
-- [Display categories and tags on a page](https://github.com/yihui/hugo-xmin/pull/2)
-
-- [Add a table of contents](https://github.com/yihui/hugo-xmin/pull/7)
-
-- [Add a link in the footer of each page to "Edit this page" on Github](https://github.com/yihui/hugo-xmin/pull/6)
-
-To fully understand these examples, you have to read [the section on Hugo templates](https://bookdown.org/yihui/blogdown/templates.html) in the **blogdown** book.
-
-# Design philosophy
-
-Lastly, a few words about my design philosophy for this theme: I have been relying on existing frameworks like Bootstrap for years since I'm not really a designer, and I was always scared by the complexity of CSS.
-
-When I started writing this theme, I asked myself, "_What if I just write from scratch?_" No Bootstrap. No Normalize.css. I don't care about IE (life could be so much easier without IE) or inconsistencies among browsers (for personal websites). As long as the theme looks okay in Chrome, Firefox, and Safari, I'm done. Thanks to the simplicity of Markdown, you cannot really produce very complicated HTML, and I think styling the HTML output from Markdown is much simpler than general HTML documents. For example, I do not need to care much about form elements like textareas or buttons.
-
-After I finished this theme, I started to wonder why I'd need `normalize.css` at all (it sounds like a religious belief). The default appearance of modern browsers actually looks pretty good in my eyes, after I tweak the typeface a little bit.
-
-Compared to inconsistencies across browsers, I care much more about these properties of HTML elements:
-
-- Tables should always be centered, and striped tables are easier to read especially when they are wide. Tables should not have vertical borders.
-- An image should be centered if it is the only child element of a paragraph.
-- The `max-width` of images, videos, and iframes should be `100%`.
-
-I hope you can enjoy this theme. The source code is [on Github](https://github.com/yihui/hugo-xmin). Happy hacking!
