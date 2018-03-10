@@ -1,5 +1,5 @@
 ---
-title: Rstudio 为何如此重要？
+title: Rstudio若干事
 author: 冯羽
 date: '2018-02-25'
 categories:
@@ -10,12 +10,9 @@ tags:
 thumbnail: http://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png
 ---
 
-**Rstudio** 是一家软件公司，按照维基百科的说法，这家公司提供 R语言
+**Rstudio** 是一家软件公司，这家公司提供 R语言的IDE（Integrated Development Environment：集成开发环境），个人感觉 Rstudio 是 R社区中最好的IDE （如果还有更好的，一定要告诉我啊）。
 
-Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed ante libero. Sed hendrerit arcu lacus.
+谢益辉就在这家公司工作，像knit、blogdown、bookdown，还有好多工具都是他开发的。之所以R语言这么magic（高效的另外一种说法），和这些大神的工作是分不开的。谢益辉也是国内第一个R语言社区统计之都的发起人和网站开发者。这些年他依然是最活跃的开源软件贡献者。其实，他工作也没多久了，2013年才开始工作。他读书的经历还是蛮很传奇的。
 
-> Sed luctus volutpat sem in dapibus. Ut pellentesque vitae magna ac mattis. Sed vestibulum, nulla at condimentum semper, magna quam posuere dui, quis sagittis enim nisi eget ex. Vivamus tempor erat a sem dapibus porta. Fusce varius dapibus tempus. Nam bibendum dignissim fringilla. Phasellus eu justo facilisis, ullamcorper urna in, feugiat mauris. Quisque dignissim purus vitae ullamcorper scelerisque. Sed at magna at nisi consequat euismod. Curabitur justo ex, efficitur in fermentum luctus, tincidunt nec lectus. Aliquam a neque metus. Etiam nulla nunc, tristique vitae accumsan ullamcorper, placerat eget nunc. Cras porta eleifend dolor maximus molestie. Etiam vitae pellentesque turpis, quis accumsan ligula. Mauris auctor, nisi nec ullamcorper pulvinar, libero magna sagittis enim, sollicitudin dignissim urna justo et tortor.
+Hadley Wickham是必须要提及到的。他是Rstudio公司的首席科学家，按说应该先介绍他。wiki上有他的介绍[Hadley Wickham](https://en.wikipedia.org/wiki/Hadley_Wickham)。他开发了R语言中最常用的几款数据分析工具，例如ggplot2，plyr，dplyr， ，reshape2等。他获奖很多。我有一本他的赠书，关于开发R包的。wiki还提及了他妹妹，是一名统计学家，我看过她的网站，她在网站上写：Hadley Wickham是我哥。
 
-Morbi non sem euismod, suscipit purus id, gravida velit. Quisque mollis luctus ligula non suscipit. Curabitur massa arcu, aliquam ac dolor a, pellentesque dignissim dui. Donec at vestibulum magna. Quisque fermentum, tortor id sodales egestas, ligula ligula interdum ipsum, et volutpat elit massa vitae nibh. Morbi eleifend libero quis pretium viverra. Etiam congue, velit ac vestibulum finibus, velit nibh fringilla purus, eu semper dui est eu nunc. Etiam feugiat scelerisque diam vitae sodales. Etiam luctus in urna eu lobortis. Nam vestibulum eros et nibh elementum ullamcorper. Nam tristique porttitor orci, nec pretium est vestibulum at. Quisque posuere semper orci, vel semper justo commodo sed. Nullam accumsan risus rhoncus fringilla porta. Morbi interdum condimentum pharetra. Donec eu elit quam. Vivamus eleifend posuere mi, vel accumsan urna sollicitudin ut.
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla nec nunc felis. Sed bibendum vel leo id semper. Maecenas vitae iaculis ante. Nam ut tempor est, eu molestie augue. Quisque tincidunt sagittis odio sed tristique. Aenean et felis quis mi viverra consequat.
