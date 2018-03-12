@@ -1,21 +1,19 @@
 ---
-title: Git commits to Jeff Leek
-author: Martin J Frigaard
-date: '2015-07-25'
+title: 语言之争
+author: 钟小小
+date: '2018-03-13'
 categories:
   - Tech
 tags:
   - Markdown
-  - Lorem Ipsum
-thumbnail: https://db.yihui.name/images/git-diff-gui.png
+  - R
 ---
 
-**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore _magna aliqua_. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+编程语言一直存在语言之争。媒体时不时推出一个编程语言排行榜，招聘启示常常暗示只招收某种语言的使用者，论坛上经常爆出某种语言vs某种语言的话题，并引起一众吃瓜群众摇旗呐喊。最近这种语言之争清净了很多，毕竟常用的语言就那么几种，再怎么排列组合，数量也是有限，群众们看多了，也就腻了。
 
-Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed ante libero. Sed hendrerit arcu lacus.
+但还是有人问我“R语言和Python的区别”。我一听这么boring的话题，一时语塞，对方见我尴尬，解围道“R语言是作统计的，Python是作机器学习的”。这结论怎么说都是错误的，如果我较真一点，现场就能给他展示几十种 R语言的机器学习工具包。但我这么做的话，会破坏谈话的氛围，是不礼貌的行为。
 
-> Sed luctus volutpat sem in dapibus. Ut pellentesque vitae magna ac mattis. Sed vestibulum, nulla at condimentum semper, magna quam posuere dui, quis sagittis enim nisi eget ex. Vivamus tempor erat a sem dapibus porta. Fusce varius dapibus tempus. Nam bibendum dignissim fringilla. Phasellus eu justo facilisis, ullamcorper urna in, feugiat mauris. Quisque dignissim purus vitae ullamcorper scelerisque. Sed at magna at nisi consequat euismod. Curabitur justo ex, efficitur in fermentum luctus, tincidunt nec lectus. Aliquam a neque metus. Etiam nulla nunc, tristique vitae accumsan ullamcorper, placerat eget nunc. Cras porta eleifend dolor maximus molestie. Etiam vitae pellentesque turpis, quis accumsan ligula. Mauris auctor, nisi nec ullamcorper pulvinar, libero magna sagittis enim, sollicitudin dignissim urna justo et tortor.
+这种语言之争和意识形态之争有点类似。无非是让人排好队，摆正立场，是人为建立的某种无意义的门槛。实际上，多种语言合作的机会很多，很多人都得益于多种语言的交互。
 
-Morbi non sem euismod, suscipit purus id, gravida velit. Quisque mollis luctus ligula non suscipit. Curabitur massa arcu, aliquam ac dolor a, pellentesque dignissim dui. Donec at vestibulum magna. Quisque fermentum, tortor id sodales egestas, ligula ligula interdum ipsum, et volutpat elit massa vitae nibh. Morbi eleifend libero quis pretium viverra. Etiam congue, velit ac vestibulum finibus, velit nibh fringilla purus, eu semper dui est eu nunc. Etiam feugiat scelerisque diam vitae sodales. Etiam luctus in urna eu lobortis. Nam vestibulum eros et nibh elementum ullamcorper. Nam tristique porttitor orci, nec pretium est vestibulum at. Quisque posuere semper orci, vel semper justo commodo sed. Nullam accumsan risus rhoncus fringilla porta. Morbi interdum condimentum pharetra. Donec eu elit quam. Vivamus eleifend posuere mi, vel accumsan urna sollicitudin ut.
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla nec nunc felis. Sed bibendum vel leo id semper. Maecenas vitae iaculis ante. Nam ut tempor est, eu molestie augue. Quisque tincidunt sagittis odio sed tristique. Aenean et felis quis mi viverra consequat.
+例如我最近想解决的一个问题是用 R语言来处理一点大数据，其实也不多，demo的数据也就12G。但R语言处理大数据一直是个瓶颈，之前有RHADOOP的工具包，也是尝试将R融入到hadoop生态圈中，但hadoop本身也在进化，
+也面临来自像spark、flink方面的挑战，hadoop的mapreduce基本上没什么人用了。
