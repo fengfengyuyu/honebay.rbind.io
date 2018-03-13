@@ -1,37 +1,19 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2015-07-23T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+title: 语言之争
+author: 钟小小
+date: '2018-03-13'
+categories:
+  - Tech
+tags:
+  - Markdown
+  - R
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
-```
+编程语言一直存在语言之争。媒体时不时推出一个编程语言排行榜，招聘启示常常暗示只招收某种语言的使用者，论坛上经常爆出某种语言vs某种语言的话题，并引起一众吃瓜群众摇旗呐喊。最近这种语言之争清净了很多，毕竟常用的语言就那么几种，再怎么排列组合，数量也是有限，群众们看多了，也就腻了。
 
-# R Markdown
+但还是有人问我“R语言和Python的区别”。我一听这么boring的话题，一时语塞，对方见我尴尬，解围道“R语言是作统计的，Python是作机器学习的”。这结论怎么说都是错误的，如果我较真一点，现场就能给他展示几十种 R语言的机器学习工具包。但我这么做的话，会破坏谈话的氛围，是不礼貌的行为。
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+这种语言之争和意识形态之争有点类似。无非是让人排好队，摆正立场，是人为建立的某种无意义的门槛。实际上，多种语言合作的机会很多，很多人都得益于多种语言的交互。
 
-You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-fit <- lm(dist ~ speed, data = cars)
-fit
-```
-
-# Including Plots
-
-You can also embed plots. See Figure \@ref(fig:pie) for example:
-
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
-par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
-  col = c('#0292D8', '#F7EA39', '#C4B632'),
-  init.angle = -50, border = NA
-)
-```
+例如我最近想解决的一个问题是用 R语言来处理一点大数据，其实也不多，demo的数据也就12G。但R语言处理大数据一直是个瓶颈，之前有RHADOOP的工具包，也是尝试将R融入到hadoop生态圈中，但hadoop本身也在进化，
+也面临来自像spark、flink方面的挑战，hadoop的mapreduce基本上没什么人用了。
